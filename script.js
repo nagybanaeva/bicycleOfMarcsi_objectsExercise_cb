@@ -6,14 +6,14 @@ let bicycle = {
 		var properties = [];
   		for (var bicycleProperty in this) {
 			if (typeof this[bicycleProperty] !== 'function') {
-      		properties.push(this[bicycleProperty]);
+      			properties.push(this[bicycleProperty]);
     		}
 		}
 		console.log(properties);
 	}
 };
 
-
+bicycle['print properties']();
 
 
 
